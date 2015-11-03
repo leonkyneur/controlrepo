@@ -7,7 +7,7 @@ puppetdb::listen_address: '0.0.0.0'
 r10k::version: '1.5.1'
 r10k::sources:
   puppet:
-    remote: 'git@github.com:puppetinabox/controlrepo.git'
+    remote: 'git@github.com:leonkyneur/controlrepo.git'
     basedir: '/etc/puppet/environments'
     prefix: false
 r10k::manage_modulepath: false
