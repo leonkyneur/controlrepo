@@ -4,14 +4,14 @@ Package {
 
 sshkey { 'github.com':
   type => 'ssh-rsa',
-  key  => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==',
+  key  => 'AAAAB3NzaC1yc2EAAAABIwAAAQEAlykvaOLzj/9yhqvZH3rU/CBcdJVRj4etjKK2AcAMqu3ECGYg0HIABlCNZgSK2uAaq+PAX50B+d7dySwhvoUEueoUeZE3IkDBuix2cit3uwANNKZ7c+OsjAleHjTmDR/glD36EZsgkhvZGdzt9oa6vkX64X/a2k/FF2G8qK52ggz9ieIkbY7qgHjyWP67Q2yGWZ/zxtNiXYAPR6SSRD+syA7rAjx85cDrIGsMC0BA/ziTb7ggaxLSRZJW5r63m+lBYprQhHJFUDFbdL/0ex+VITNvn1VlBSe5cx0JZNPg2IQf+w96Z7x9sQIj+ks7PoKOTNge/1HtcM8fCJX51C3gtw=='
 }
 
 class { 'r10k':
   version           => '1.5.1',
   sources           => {
     'puppet' => {
-      'remote'  => 'git@github.com:puppetinabox/controlrepo.git',
+      'remote'  => 'git@github.com:leonkyneur/controlrepo.git',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     },
