@@ -29,7 +29,7 @@ mod 'puppetlabs/puppetdb',
  :git => 'https://github.com/puppetlabs/puppetlabs-puppetdb.git'
 mod 'puppetlabs/rabbitmq', '4.0.0'
 mod 'puppetlabs/ruby', '0.4.0'
-mod 'puppetlabs/stdlib', '4.5.0'
+mod 'puppetlabs/stdlib', '4.9.0'
 mod 'puppetlabs/tftp', '0.2.3'
 mod 'puppetlabs/vcsrepo', '1.0.1'
 mod 'puppetlabs/xinetd', '1.4.0'
