@@ -44,6 +44,7 @@ mod 'thias/bind', '0.5.1'
 mod 'yguenane/augeas', '0.1.1'
 mod 'yguenane/ygrpms', '0.1.0'
 mod 'zack/r10k', '3.1.1'
+mod 'solarkennedy/puppet-consul', '1.0.2'
 
 # Modules from Github
 mod 'lab_config',
