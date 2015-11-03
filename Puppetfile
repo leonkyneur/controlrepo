@@ -24,7 +24,7 @@ mod 'puppetlabs/mcollective',
 mod 'puppetlabs/mysql', '3.1.0'
 mod 'puppetlabs/ntp', '3.1.1'
 mod 'puppetlabs/pe_gem', '0.0.1'
-mod 'puppetlabs/postgresql', '3.3.3'
+mod 'puppetlabs/postgresql', '4.6.0'
 mod 'puppetlabs/puppetdb', '3.0.1'
 mod 'puppetlabs/rabbitmq', '4.0.0'
 mod 'puppetlabs/ruby', '0.4.0'
